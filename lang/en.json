@@ -1,0 +1,28 @@
+{
+  "sections": {
+    "file": "📂 File Commands",
+    "user": "👤 User Commands",
+    "admin": "⚙️ Admin Commands",
+    "system": "🖥️ System Commands"
+  },
+  "commands": {
+    "upload": {"label": "/upload", "desc": "Upload a file and get a shareable link."},
+    "myfiles": {"label": "/myfiles", "desc": "List your uploaded files."},
+    "randomfile": {"label": "/randomfile", "desc": "Get a random file from the database."},
+    "deletefile": {"label": "/deletefile <id>", "desc": "Delete one of your uploaded files."},
+    "fileinfo": {"label": "/fileinfo <id>", "desc": "Show info about a file by its ID."},
+    "start": {"label": "/start", "desc": "Start the bot or open a file link."},
+    "help": {"label": "/help", "desc": "Show help information."},
+    "about": {"label": "/about", "desc": "About this bot."},
+    "user": {"label": "/user", "desc": "Show your user info."},
+    "language": {"label": "/language", "desc": "Change your language."},
+    "feedback": {"label": "/feedback", "desc": "Send feedback to the admin."},
+    "commands": {"label": "/commands", "desc": "Show all available commands."},
+    "ban": {"label": "/ban <user_id>", "desc": "Ban a user (admin only)."},
+    "unban": {"label": "/unban <user_id>", "desc": "Unban a user (admin only)."},
+    "broadcast": {"label": "/broadcast", "desc": "Broadcast a message to all users (admin only)."},
+    "stats": {"label": "/stats", "desc": "Show bot statistics (admin only)."},
+    "banlist": {"label": "/banlist", "desc": "Show the list of banned users (admin only)."},
+    "uptime": {"label": "/uptime", "desc": "Show VPS/server uptime and system info (admin only)."}
+  }
+}
