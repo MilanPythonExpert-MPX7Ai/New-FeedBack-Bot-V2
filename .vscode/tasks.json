@@ -1,0 +1,15 @@
+{
+	"version": "2.0.0",
+	"tasks": [
+		{
+			"type": "shell",
+			"label": "Run Telegram Feedback Bot",
+			"command": "/workspaces/Telegram-FeedbackBot-V1/.venv/bin/python",
+			"args": [
+				"MPX7.py"
+			],
+			"group": "build",
+			"isBackground": false
+		}
+	]
+}
